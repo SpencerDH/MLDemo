@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="home-header">
+    <h2>Home</h2>
+</div>
+
+<!-- Cards section -->
+
+<div class="updates-cards row my-4">
+    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="card">
+            <h5 class="card-header">Scrum Update</h5>
+            <div class="card-body">
+                <p class="card-text">Sprint #4 completed; customer review in progress.</p>
+                <p class="card-text text-success">July 17th, 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="card">
+            <h5 class="card-header">Scrum Update</h5>
+            <div class="card-body">
+                <p class="card-text">Sprint #4 completed; customer review in progress.</p>
+                <p class="card-text text-success">July 17th, 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="card">
+            <h5 class="card-header">Scrum Update</h5>
+            <div class="card-body">
+                <p class="card-text">Sprint #4 completed; customer review in progress.</p>
+                <p class="card-text text-success">July 17th, 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="card">
+            <h5 class="card-header">Scrum Update</h5>
+            <div class="card-body">
+                <p class="card-text">Sprint #4 completed; customer review in progress.</p>
+                <p class="card-text text-success">July 17th, 2021</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Table section -->
+<div>
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1 Data 1</td>
+                <td>Row 1 Data 2</td>
+            </tr>
+            <tr>
+                <td>Row 2 Data 1</td>
+                <td>Row 2 Data 2</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#table_id").DataTable();
+    });
+</script>
